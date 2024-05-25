@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.0" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Secret Diary&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="16"
+            column="9"
+            startOffset="620"
+            endLine="16"
+            endColumn="36"
+            endOffset="647"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="23"
+            column="6"
+            startOffset="884"
+            endLine="23"
+            endColumn="14"
+            endOffset="892"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter PIN&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="27"
+            column="9"
+            startOffset="1022"
+            endLine="27"
+            endColumn="33"
+            endOffset="1046"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Log In&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="42"
+            column="9"
+            startOffset="1599"
+            endLine="42"
+            endColumn="30"
+            endOffset="1620"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;SecretDiary&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="12"
+            column="9"
+            startOffset="482"
+            endLine="12"
+            endColumn="35"
+            endOffset="508"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="21"
+            column="6"
+            startOffset="819"
+            endLine="21"
+            endColumn="14"
+            endOffset="827"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="21"
+            column="6"
+            startOffset="819"
+            endLine="21"
+            endColumn="14"
+            endOffset="827"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Dear Diary...&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="25"
+            column="9"
+            startOffset="955"
+            endLine="25"
+            endColumn="37"
+            endOffset="983"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Undo&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="37"
+            column="9"
+            startOffset="1384"
+            endLine="37"
+            endColumn="28"
+            endOffset="1403"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="48"
+            column="9"
+            startOffset="1774"
+            endLine="48"
+            endColumn="28"
+            endOffset="1793"/>
+    </incident>
+
+    <incident
+        id="TextViewEdits"
+        severity="warning"
+        message="Attribute `android:inputType` should not be used with `&lt;TextView>`: Change element type to `&lt;EditText>` ?">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="58"
+            column="9"
+            startOffset="2117"
+            endLine="58"
+            endColumn="42"
+            endOffset="2150"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="48"
+            column="37"
+            startOffset="1809"
+            endLine="48"
+            endColumn="87"
+            endOffset="1859"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="48"
+            column="37"
+            startOffset="1809"
+            endLine="48"
+            endColumn="77"
+            endOffset="1849"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="50"
+            column="37"
+            startOffset="1922"
+            endLine="50"
+            endColumn="127"
+            endOffset="2012"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="50"
+            column="37"
+            startOffset="1922"
+            endLine="50"
+            endColumn="96"
+            endOffset="1981"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="50"
+            column="37"
+            startOffset="1922"
+            endLine="50"
+            endColumn="87"
+            endOffset="1972"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="50"
+            column="37"
+            startOffset="1922"
+            endLine="50"
+            endColumn="77"
+            endOffset="1962"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:Secret_Diary-task*debug*sourceProvider*0*javaDir*0}/org/hyperskill/secretdiary/MainActivity.kt"
+            line="50"
+            column="90"
+            startOffset="1975"
+            endLine="50"
+            endColumn="96"
+            endOffset="1981"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 34"
+            oldString="33"
+            replacement="34"/>
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="11"
+            column="5"
+            startOffset="214"
+            endLine="11"
+            endColumn="24"
+            endOffset="233"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test:core-ktx than 1.4.0 is available: 1.5.0">
+        <fix-replace
+            description="Change to 1.5.0"
+            family="Update versions"
+            oldString="1.4.0"
+            replacement="1.5.0"/>
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="26"
+            column="18"
+            startOffset="392"
+            endLine="26"
+            endColumn="48"
+            endOffset="422"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.9.0">
+        <fix-replace
+            description="Change to 1.9.0"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.9.0"/>
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="27"
+            column="20"
+            startOffset="442"
+            endLine="27"
+            endColumn="54"
+            endOffset="476"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.6.0 is available: 1.13.1">
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="43"
+            column="18"
+            startOffset="1047"
+            endLine="43"
+            endColumn="51"
+            endOffset="1080"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.3.1 is available: 1.6.1">
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="46"
+            column="18"
+            startOffset="1142"
+            endLine="46"
+            endColumn="59"
+            endOffset="1183"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.1.4">
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="49"
+            column="18"
+            startOffset="1259"
+            endLine="49"
+            endColumn="80"
+            endOffset="1321"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.4.0 is available: 1.12.0">
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="52"
+            column="18"
+            startOffset="1381"
+            endLine="52"
+            endColumn="66"
+            endOffset="1429"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-datetime than 0.3.2 is available: 0.4.0">
+        <fix-replace
+            description="Change to 0.4.0"
+            family="Update versions"
+            oldString="0.3.2"
+            replacement="0.4.0"/>
+        <location
+            file="${:Secret_Diary-task*projectDir}/build.gradle"
+            line="54"
+            column="18"
+            startOffset="1448"
+            endLine="54"
+            endColumn="64"
+            endOffset="1494"/>
+    </incident>
+
+</incidents>

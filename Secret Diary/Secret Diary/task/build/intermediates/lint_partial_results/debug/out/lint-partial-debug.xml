@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.0" type="partial_results">
+    <map id="VectorDrawableCompat">
+        <entry
+            name="ic_launcher_foreground"
+            boolean="false"/>
+        <entry
+            name="ic_launcher_background"
+            boolean="false"/>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="24"
+            endLine="2"
+            endColumn="28"
+            endOffset="39"/>
+        <location id="R.layout.activity_main2"
+            file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main2.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="10"
+            endColumn="53"
+            endOffset="453"/>
+        <entry
+            name="model"
+            string="color[colorPrimary(U),colorPrimaryDark(U),colorAccent(U),white(U),purple(U)],drawable[ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],id[etPin(U),tvTitle(D),main(U),hdrSecretDiary(U),btnUndo(U),etNewWriting(U),btnLogin(U),btnSave(U),tvDiary(U)],layout[activity_login(U),activity_main(U),activity_main2(D)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[emptyStringError(U),no(U),yes(U),removeStringDialogMessage(U),error_wrongPin(U),app_name(D),removeStringDialogTitle(U)],style[Theme_MaterialComponents_Light_DarkActionBar(R),AppTheme(U)];5^7,11^4^3^8,12^4^3^b^f,14^6^5,15^6^5,1e^1d^0^1^2;;;"/>
+    </map>
+
+</incidents>

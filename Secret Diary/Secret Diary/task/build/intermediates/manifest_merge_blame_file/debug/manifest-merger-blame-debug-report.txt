@@ -6,153 +6,100 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="20"
-8-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="33" />
-9-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml
+8-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.REORDER_TASKS" />
-11-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
-11-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
+11-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+11-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
 12
 13    <application
-13-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:5:5-24:19
+13-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:5:5-24:19
 14        android:allowBackup="true"
-14-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:6:9-35
+14-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:6:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.8.0] C:\Users\Violin\.gradle\caches\transforms-4\6ab36e2930ff22a433b7c832b0444c11\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.6.0] C:\Users\user\.gradle\caches\transforms-4\44f4ba8dd952333a3f9ee486ba6a4c12\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:7:9-43
+17-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:7:9-43
 18        android:label="Secret Diary"
-18-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:8:9-37
+18-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:8:9-37
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:9:9-54
+19-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:9:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:10:9-35
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:11:9-40
-22        <activity
-22-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:12:9-14:40
-23            android:name="org.hyperskill.secretdiary.LoginActivity"
-23-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:13:13-42
-24            android:exported="false" />
-24-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:14:13-37
-25        <activity
-25-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:15:9-23:20
-26            android:name="org.hyperskill.secretdiary.MainActivity"
-26-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:16:13-41
-27            android:exported="true" >
-27-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:17:13-36
-28            <intent-filter>
-28-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
-29-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:21:17-77
-31-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
-35            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-35-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
-36            android:exported="true"
-36-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
-37            android:theme="@android:style/Theme" >
-37-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
-38            <intent-filter>
-38-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
-39-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
-43            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-43-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
-44            android:exported="true"
-44-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
-45            android:theme="@android:style/Theme" >
-45-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
-46            <intent-filter>
-46-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
-47-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
-51            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-51-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
-52            android:exported="true"
-52-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
-53            android:theme="@android:style/Theme.Dialog" >
-53-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
-54            <intent-filter>
-54-->[androidx.test:core:1.4.0] C:\Users\Violin\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
-55-->C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
-56            </intent-filter>
-57        </activity>
-58
-59        <provider
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
-61            android:authorities="org.hyperskill.secretdiary.androidx-startup"
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
-62            android:exported="false" >
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
-63            <meta-data
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-65                android:value="androidx.startup" />
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-66        </provider>
-67
-68        <receiver
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-69            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-70            android:directBootAware="false"
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-71            android:enabled="true"
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-72            android:exported="true"
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-73            android:permission="android.permission.DUMP" >
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-74            <intent-filter>
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-75                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-76            </intent-filter>
-77            <intent-filter>
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-78                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-79            </intent-filter>
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-81                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-84                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Violin\.gradle\caches\transforms-4\f547b6ca20fae85bd2769534df1783c9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-85            </intent-filter>
-86        </receiver>
-87    </application>
-88
-89</manifest>
+20-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:11:9-40
+23        <activity
+23-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:12:9-14:40
+24            android:name="org.hyperskill.secretdiary.LoginActivity"
+24-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:13:13-42
+25            android:exported="false" />
+25-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:14:13-37
+26        <activity
+26-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:15:9-23:20
+27            android:name="org.hyperskill.secretdiary.MainActivity"
+27-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:16:13-41
+28            android:exported="true" >
+28-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:17:13-36
+29            <intent-filter>
+29-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
+30-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:21:17-77
+32-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+36            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+36-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+37            android:exported="true"
+37-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+38            android:theme="@android:style/Theme" >
+38-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+39            <intent-filter>
+39-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
+40-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+44            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+44-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+45            android:exported="true"
+45-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+46            android:theme="@android:style/Theme" >
+46-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+47            <intent-filter>
+47-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
+48-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+52            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+52-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+53            android:exported="true"
+53-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+54            android:theme="@android:style/Theme.Dialog" >
+54-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+55            <intent-filter>
+55-->[androidx.test:core:1.4.0] C:\Users\user\.gradle\caches\transforms-4\d0a2e64ea9d0001c6f8455193eb2d561\transformed\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:17-69
+56-->C:\Users\user\Desktop\HyperSkill\Android_Hyperskill_Projects\Secret Diary\Secret Diary\task\src\main\AndroidManifest.xml:19:25-66
+57            </intent-filter>
+58        </activity>
+59    </application>
+60
+61</manifest>

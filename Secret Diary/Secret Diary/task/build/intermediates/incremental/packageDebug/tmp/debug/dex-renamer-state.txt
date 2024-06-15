@@ -1,4 +1,4 @@
-#Thu May 23 10:03:05 KST 2024
-base.0=C\:\\Users\\Violin\\AndroidStudioProjects\\Secret Diary\\Secret Diary\\task\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Jun 15 21:57:06 WAT 2024
+base.0=C\:\\Users\\user\\Desktop\\HyperSkill\\Android_Hyperskill_Projects\\Secret Diary\\Secret Diary\\task\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

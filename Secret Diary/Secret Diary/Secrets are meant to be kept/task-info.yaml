@@ -1111,10 +1111,107 @@ files:
   - name: src/main/java/org/hyperskill/secretdiary/LoginActivity.kt
     visible: true
     learner_created: true
+  - name: build/outputs/logs/manifest-merger-release-report.txt
+    visible: true
+    learner_created: true
+  - name: build/intermediates/packaged_manifests/debug/output-metadata.json
+    visible: true
+    learner_created: true
+  - name: build/intermediates/lint-cache/sdk_index/snapshot.gz
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/last-build.bin
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab
+    visible: true
+    learner_created: true
+  - name: build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/21703#comment
-status: Solved
-feedback:
-  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
-    to continue learning.
-  time: "Wed, 22 May 2024 21:02:41 UTC"
+status: Failed
 record: -1

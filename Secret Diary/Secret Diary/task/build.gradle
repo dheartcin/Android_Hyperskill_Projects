@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-  compileSdk 34
+  compileSdkVersion hs.android.compileSdkVersion
 
   defaultConfig {
 
     applicationId "org.hyperskill.secretdiary"
     minSdkVersion hs.android.minSdkVersion
-    targetSdkVersion 33
+    targetSdkVersion hs.android.targetSdkVersion
     versionCode 1
     versionName '1.0'
   }
@@ -18,26 +18,11 @@ android {
   }
 }
 
-repositories {
-  mavenCentral()
-}
 
 dependencies {
   implementation 'androidx.test:core-ktx:1.4.0'
-    implementation 'androidx.activity:activity:1.8.0'
-    def kotlinVersion = hs.android.kotlinVersion
-  constraints {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21") {
-      because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
-    }
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22") {
-      because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
-    }
-    /*implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion" {
-      because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
-    }*/
-  }
-
+  def kotlinVersion = hs.android.kotlinVersion
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
 
   def coreKtx = hs.android.lib.coreKtx
   implementation "androidx.core:core-ktx:$coreKtx"
@@ -52,5 +37,4 @@ dependencies {
   implementation "com.google.android.material:material:$material"
 
   implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.2")
-  implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
 }

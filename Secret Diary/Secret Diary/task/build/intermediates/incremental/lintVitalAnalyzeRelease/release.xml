@@ -2,11 +2,11 @@
     name="release"
     package="org.hyperskill.secretdiary"
     minSdkVersion="20"
-    targetSdkVersion="33"
+    targetSdkVersion="29"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-7.4.0"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\out"
-    desugaredMethodsFiles="C:\Users\Violin\.gradle\caches\transforms-4\a6cdb689f871f2384b1d2eed192b62e6\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\user\.gradle\caches\transforms-4\a6cdb689f871f2384b1d2eed192b62e6\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       viewBinding="true"
       namespacing="REQUIRED"/>
@@ -27,7 +27,7 @@
   <testFixturesSourceProviders>
   </testFixturesSourceProviders>
   <mainArtifact
-      classOutputs="build\intermediates\javac\release\classes;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      classOutputs="build\intermediates\javac\release\classes;build\tmp\kotlin-classes\release;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
       applicationId="org.hyperskill.secretdiary"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\aidl_source_output_dir\release\out;build\generated\source\buildConfig\release;build\generated\renderscript_source_output_dir\release\out;build\generated\data_binding_base_class_source_out\release\out"
       generatedResourceFolders="build\generated\res\rs\release;build\generated\res\resValues\release">

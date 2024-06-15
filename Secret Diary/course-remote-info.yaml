@@ -4,7 +4,7 @@ hyperskill_project:
   is_template_based: false
   use_ide: true
   environment: android
-update_date: "Sun, 19 May 2024 02:38:27 UTC"
+update_date: "Sat, 15 Jun 2024 20:56:15 UTC"
 stages:
   - id: 1398
     step: 21699
@@ -20,7 +20,7 @@ stages:
     is_completed: true
   - id: 1402
     step: 21703
-    is_completed: false
+    is_completed: true
 topics:
   0:
     - title: Introduction to UI/UX
@@ -148,6 +148,8 @@ topics:
       theory_id: 11233
     - title: Structural vs referential equality
       theory_id: 11236
+    - title: Work with MutableLists
+      theory_id: 14902
     - title: Unicode
       theory_id: 7899
     - title: Characters. Char type
@@ -164,10 +166,6 @@ topics:
       theory_id: 4640
     - title: Working with strings
       theory_id: 12561
-    - title: Introduction to MutableList
-      theory_id: 14879
-    - title: Work with MutableLists
-      theory_id: 14902
     - title: For loop and ranges
       theory_id: 4652
     - title: For loop and lists

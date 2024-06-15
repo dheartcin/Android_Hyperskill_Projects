@@ -1,2 +1,0 @@
-C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\java\org\hyperskill\secretdiary\LoginActivity.kt
-C:\Users\Violin\AndroidStudioProjects\Secret Diary\Secret Diary\task\src\main\java\org\hyperskill\secretdiary\MainActivity.kt

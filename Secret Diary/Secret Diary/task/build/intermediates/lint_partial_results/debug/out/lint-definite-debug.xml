@@ -9,10 +9,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
             line="16"
             column="9"
-            startOffset="620"
+            startOffset="635"
             endLine="16"
             endColumn="36"
-            endOffset="647"/>
+            endOffset="662"/>
     </incident>
 
     <incident
@@ -37,10 +37,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
             line="23"
             column="6"
-            startOffset="884"
+            startOffset="906"
             endLine="23"
             endColumn="14"
-            endOffset="892"/>
+            endOffset="914"/>
     </incident>
 
     <incident
@@ -51,10 +51,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
             line="27"
             column="9"
-            startOffset="1022"
+            startOffset="1048"
             endLine="27"
             endColumn="33"
-            endOffset="1046"/>
+            endOffset="1072"/>
     </incident>
 
     <incident
@@ -65,10 +65,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
             line="42"
             column="9"
-            startOffset="1599"
+            startOffset="1640"
             endLine="42"
             endColumn="30"
-            endOffset="1620"/>
+            endOffset="1661"/>
     </incident>
 
     <incident
@@ -79,10 +79,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="12"
             column="9"
-            startOffset="482"
+            startOffset="493"
             endLine="12"
             endColumn="35"
-            endOffset="508"/>
+            endOffset="519"/>
     </incident>
 
     <incident
@@ -100,10 +100,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="21"
             column="6"
-            startOffset="819"
+            startOffset="839"
             endLine="21"
             endColumn="14"
-            endOffset="827"/>
+            endOffset="847"/>
     </incident>
 
     <incident
@@ -128,10 +128,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="21"
             column="6"
-            startOffset="819"
+            startOffset="839"
             endLine="21"
             endColumn="14"
-            endOffset="827"/>
+            endOffset="847"/>
     </incident>
 
     <incident
@@ -142,10 +142,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="25"
             column="9"
-            startOffset="955"
+            startOffset="979"
             endLine="25"
             endColumn="37"
-            endOffset="983"/>
+            endOffset="1007"/>
     </incident>
 
     <incident
@@ -156,10 +156,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="37"
             column="9"
-            startOffset="1384"
+            startOffset="1420"
             endLine="37"
             endColumn="28"
-            endOffset="1403"/>
+            endOffset="1439"/>
     </incident>
 
     <incident
@@ -170,10 +170,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="48"
             column="9"
-            startOffset="1774"
+            startOffset="1821"
             endLine="48"
             endColumn="28"
-            endOffset="1793"/>
+            endOffset="1840"/>
     </incident>
 
     <incident
@@ -184,10 +184,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
             line="58"
             column="9"
-            startOffset="2117"
+            startOffset="2174"
             endLine="58"
             endColumn="42"
-            endOffset="2150"/>
+            endOffset="2207"/>
     </incident>
 
     <incident
@@ -198,10 +198,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
             line="2"
             column="1"
-            startOffset="39"
+            startOffset="40"
             endLine="5"
             endColumn="17"
-            endOffset="272"/>
+            endOffset="276"/>
     </incident>
 
     <incident
@@ -212,10 +212,10 @@
             file="${:Secret_Diary-task*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
             line="2"
             column="1"
-            startOffset="39"
+            startOffset="40"
             endLine="5"
             endColumn="17"
-            endOffset="272"/>
+            endOffset="276"/>
     </incident>
 
     <incident
@@ -317,24 +317,6 @@
     </incident>
 
     <incident
-        id="OldTargetApi"
-        severity="warning"
-        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
-        <fix-replace
-            description="Update targetSdkVersion to 34"
-            oldString="33"
-            replacement="34"/>
-        <location
-            file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="11"
-            column="5"
-            startOffset="214"
-            endLine="11"
-            endColumn="24"
-            endOffset="233"/>
-    </incident>
-
-    <incident
         id="GradleDependency"
         severity="warning"
         message="A newer version of androidx.test:core-ktx than 1.4.0 is available: 1.5.0">
@@ -345,31 +327,26 @@
             replacement="1.5.0"/>
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="26"
+            line="23"
             column="18"
-            startOffset="392"
-            endLine="26"
+            startOffset="436"
+            endLine="23"
             endColumn="48"
-            endOffset="422"/>
+            endOffset="466"/>
     </incident>
 
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.9.0">
-        <fix-replace
-            description="Change to 1.9.0"
-            family="Update versions"
-            oldString="1.8.0"
-            replacement="1.9.0"/>
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.6.10 is available: 1.8.22">
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="27"
-            column="20"
-            startOffset="442"
-            endLine="27"
-            endColumn="54"
-            endOffset="476"/>
+            line="25"
+            column="18"
+            startOffset="533"
+            endLine="25"
+            endColumn="74"
+            endOffset="589"/>
     </incident>
 
     <incident
@@ -378,12 +355,12 @@
         message="A newer version of androidx.core:core-ktx than 1.6.0 is available: 1.13.1">
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="43"
+            line="28"
             column="18"
-            startOffset="1047"
-            endLine="43"
+            startOffset="650"
+            endLine="28"
             endColumn="51"
-            endOffset="1080"/>
+            endOffset="683"/>
     </incident>
 
     <incident
@@ -392,12 +369,12 @@
         message="A newer version of androidx.appcompat:appcompat than 1.3.1 is available: 1.6.1">
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="46"
+            line="31"
             column="18"
-            startOffset="1142"
-            endLine="46"
+            startOffset="748"
+            endLine="31"
             endColumn="59"
-            endOffset="1183"/>
+            endOffset="789"/>
     </incident>
 
     <incident
@@ -406,12 +383,12 @@
         message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.1.4">
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="49"
+            line="34"
             column="18"
-            startOffset="1259"
-            endLine="49"
+            startOffset="868"
+            endLine="34"
             endColumn="80"
-            endOffset="1321"/>
+            endOffset="930"/>
     </incident>
 
     <incident
@@ -420,12 +397,12 @@
         message="A newer version of com.google.android.material:material than 1.4.0 is available: 1.12.0">
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="52"
+            line="37"
             column="18"
-            startOffset="1381"
-            endLine="52"
+            startOffset="993"
+            endLine="37"
             endColumn="66"
-            endOffset="1429"/>
+            endOffset="1041"/>
     </incident>
 
     <incident
@@ -439,12 +416,12 @@
             replacement="0.4.0"/>
         <location
             file="${:Secret_Diary-task*projectDir}/build.gradle"
-            line="54"
+            line="39"
             column="18"
-            startOffset="1448"
-            endLine="54"
+            startOffset="1062"
+            endLine="39"
             endColumn="64"
-            endOffset="1494"/>
+            endOffset="1108"/>
     </incident>
 
 </incidents>
